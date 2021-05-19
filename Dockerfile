@@ -7,6 +7,6 @@ RUN cd /tmp \
  && mv kubens /usr/local/bin/kns \                                                               
  && mv completion/*.bash $COMPLETIONS \                                                          
  && cd .. \ 
- && bash $COMPLETION/kubectx 
+ && bash $COMPLETION/kubectx \
  && bash $COMPLETION/kubens
 ENTRYPOINT ["sleep"]
